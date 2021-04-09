@@ -2,211 +2,191 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Welocme to movie hub | this is best website for you</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <title>Welocme to movie hub | this is best website for you</title>
 </head>
 
 <body>
-  <div class="main">
     <section class="navbar">
-      <div class="logo">
-        <a class="btn-1" href="">Movie Hub</a>
-      </div>
-      <div class="links">
-        <ul>
-          <li><a href="">Movies</a></li>
-          <li><a href="">TV Serials</a></li>
-          <li><a href="">Audio</a></li>
-        </ul>
-      </div>
+        <input type="checkbox" id="check"><br>
+        <label for="check" class="checkbtn" id="burger">
+            <i class="fas fa-bars"></i>
+        </label>
+        <div class="logo">
+            <a class="btn-1" href="index.html">Movie Hub</a>
+        </div>
+        <div class="navigation">
+
+            <div class="links">
+                <ul>
+                     <li><a href="">Home</a></li>
+                    <li><a href="">Movies</a></li>
+                    <li><a href="">TV Serials</a></li>
+                    <li><a href="">Audio</a></li>
+                </ul>
+            </div>
+        </div>
     </section>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="Images/H-P-1.jpg" class="d-block w-100" alt="...">
+
+    <!-- caruosel items starts from here -->
+    <section class="carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Images/H-P-2.jpg" height="550px" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/H-P-1.jpg" height="550px" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/vv.jpg" height="550px" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
         </div>
-        <div class="carousel-item">
-          <img src="Images/H-P-2.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="Images/Poster-3.jpg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </a>
-    </div>
-  </div>
-  <!-- search bar -->
+    </section>
+      <!-- search bar -->
   <form class="d-flex">
     <input class="Search-bar" type="search" placeholder="Search your favorite title" aria-label="Search">
+    
   </form>
+
   <!-- search bar End -->
-  <div class="content-poster">
-    <section class="popular-action">
-      <h2 class="head-1">Popular in Action</h2>
-      <hr class="line-1">
-    </section>
-    <div class="Small-Poster">
-      <div class="Main-2">
-        <img src="Images/Small-Poster-1.jpg" alt="">
-        <div class="Para">
-          <p><b>Pagal Panti</b> </br>Trailer, Comedy, <br>Tragedy</p>
-        </div>
-      </div>
-      <div class="Main-2">
-        <img src="Images/Small-Poster-2.jpg" alt="">
-        <div class="Para">
-          <p><b>Dil Bechara</b> </br>Trailer, Love, <br>Tragedy</p>
-        </div>
-      </div>
-      <div class="Main-2">
-        <img src="Images/Small-Poster-3.jpg" alt="">
-        <div class="Para">
-          <p><b>Hathi Mere Sathi</b> </br>Trailer, Action, <br>Tragedy</p>
-        </div>
-      </div>
-      <div class="Main-2">
-        <img src="Images/Small-Poster-4.jpg" alt="">
-        <div class="Para">
-          <p><b>Kalank</b> </br>Trailer, Action, <br>Tragedy</p>
-        </div>
-      </div>
-      <div class="Main-2">
-         <img src="Images/Small-Poster-5.jpg" alt="">
-          <div class="Para">
-          <p><b>Suryavanshi</b> </br>Trailer, Action, <br>Tragedy</p>
-        </div>
-      </div>
-      </br>
-      <div class="poster-Line-2">
-        <div class="Main-2">
-          <img src="Images/Small-Poster-6.jpg" alt="">
-          <div class="Para">
-            <p><b>Super 30</b> </br>Trailer, Education, <br>Tragedy</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <section class="Popular-Drama">
-      <h2 class="head-2">Popular in Action</h2>
-      <hr class="line-2">
-      
-    </section>
-    <div class="Small-Poster-2">
-      <div class="Main-2">
-        <img src="Images/Small-Poster-7.jpg" alt="">
-        <div class="Para">
-          <p><b>Bharat</b> </br>Trailer, Drama, <br>Tragedy</p>
-        </div>
-      </div>
-      <div class="Main-2">
-        <img src="Images/Small-Poster-8.jpg" alt="">
-        <div class="Para">
-          <p><b>Baywatch</b> </br>Trailer, Drama, <br>Tragedy</p>
-        </div>
-      </div>
-      <div class="Main-2">
-        <img src="Images/Small-Poster-9.jpg" alt="">
-        <div class="Para">
-          <p><b>Baywatch</b> </br>Trailer, Drama, <br>Tragedy</p>
-        </div>
-      </div>
-      <div class="Main-2">
-        <img src="Images/Small-Poster-10.jpg" alt="">
-        <div class="Para">
-          <p><b>Baywatch</b> </br>Trailer, Drama, <br>Tragedy</p>
-        </div>
-      </div>
-      <div class="Main-2">
-        <img src="Images/Small-Poster-11.jpg" alt="">
-        <div class="Para">
-          <p><b>Baywatch</b> </br>Trailer, Drama, <br>Tragedy</p>
-        </div>
-      </div>
-      <div class="poster-Line-2">
-        <div class="Main-2">
-          <img src="Images/Small-Poster-12.jpg" alt="">
-          <div class="Para">
-            <p><b>Super 30</b> </br>Trailer, Education, <br>Tragedy</p>
-          </div>
-        </div>
-      </div>
-      <section class="Popular-Sci-Fi">
-        <h2 class="head-3">Popular in Sci-Fi</h2>
-        <hr class="line-3">
-      </section>
-      <div class="Small-Poster-3">
-        <div class="Main-3">
-          <img src="Images/Small-Poster-13.jpg" alt="">
-          <div class="Para">
-            <p><b>Baywatch</b> </br>Trailer, Drama, <br>Tragedy</p>
-          </div>
-        </div>
-        <div class="Main-3">
-          <img src="Images/Small-Poster-14.jpg" alt="">
-          <div class="Para">
-            <p><b>Baywatch</b> </br>Trailer, Drama, <br>Tragedy</p>
-          </div>
-        </div>
-        <div class="Main-3">
-          <img src="Images/Small-Poster-15.jpg" alt="">
-          <div class="Para">
-            <p><b>Baywatch</b> </br>Trailer, Drama, <br>Tragedy</p>
-          </div>
-        </div>
-        <div class="Main-3">
-          <img src="Images/Small-Poster-8.jpg" alt="">
-          <div class="Para">
-            <p><b>Baywatch</b> </br>Trailer, Drama, <br>Tragedy</p>
-          </div>
-        </div>
-        <div class="Main-3">
-          <img src="Images/Small-Poster-8.jpg" alt="">
-          <div class="Para">
-            <p><b>Baywatch</b> </br>Trailer, Drama, <br>Tragedy</p>
-          </div>
-        </div>
-        <div class="poster-Line-2">
-          <div class="Main-2">
-            <img src="Images/Small-Poster-6.jpg" alt="">
-            <div class="Para">
-              <p><b>Super 30</b> </br>Trailer, Education, <br>Tragedy</p>
+
+    <!-- cardpropery start from here -->
+
+    <section class="card-property">
+        <div class="card-section">
+            <h1 class="head-1">Popular Action</h1>
+            <hr class="line">
+            <div class="card-main-set-1">
+                <div class="card-set-1">
+                    <div class="small-poster-1">
+                        <img src="Images/small-Poster-1.jpg" alt="">
+                    </div>
+                    <div class="small-poster-1">
+                        <img src="Images/small-Poster-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="card-set-2">
+                    <div class="small-poster-2">
+                        <img src="Images/small-Poster-3.jpg" alt="">
+                    </div>
+                    <div class="small-poster-2">
+                        <img src="Images/small-Poster-4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="card-set-3">
+                    <div class="small-poster-3">
+                        <img src="Images/small-Poster-5.jpg" alt="">
+                        <div class="small-poster-4">
+                            <img src="Images/small-Poster-6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+
+            <h1 class="head-1">Popular in Sci-Fi</h1>
+            <hr class="line">
+            <div class="card-main-set-2">
+                <div class="card-set-1">
+                    <div class="small-poster-1">
+                        <img src="Images/small-Poster-7.jpg" alt="">
+                    </div>
+                    <div class="small-poster-1">
+                        <img src="Images/small-Poster-8.jpg" alt="">
+                    </div>
+                </div>
+                <div class="card-set-2">
+                    <div class="small-poster-2">
+                        <img src="Images/small-Poster-9.jpg" alt="">
+                    </div>
+                    <div class="small-poster-2">
+                        <img src="Images/small-Poster-10.jpg" alt="">
+                    </div>
+                </div>
+                <div class="card-set-3">
+                    <div class="small-poster-3">
+                        <img src="Images/small-Poster-11.jpg" alt="">
+                        <div class="small-poster-4">
+                            <img src="Images/small-Poster-12.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="head-1">Popular in Tragedy</h1>
+            <hr class="line">
+            <div class="card-main-set-3">
+                <div class="card-set-1">
+                    <div class="small-poster-1">
+                        <img src="Images/small-Poster-13.jpg" alt="">
+                    </div>
+                    <div class="small-poster-1">
+                        <img src="Images/small-Poster-14.jpg" alt="">
+                    </div>
+                </div>
+                <div class="card-set-2">
+                    <div class="small-poster-2">
+                        <img src="Images/small-Poster-15.jpg" alt="">
+                    </div>
+                    <div class="small-poster-2">
+                        <img src="Images/small-Poster-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="card-set-3">
+                    <div class="small-poster-3">
+                        <img src="Images/small-Poster-6.jpg" alt="">
+                        <div class="small-poster-4">
+                            <img src="Images/small-Poster-8.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-  </div>
-  
- <section class="copyright">
-  <hr class="line-4">
-   <p class="Copy">All copyright &copy; Reserve : Movie Hub</p>
- </section>
+        <section class="copyright">
+            <hr class="line">
+             <p class="Copy">All copyright &copy; Reserve : Movie Hub</p>
+           </section>
+    </section>
+    
+        </div>
 
-  <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Optional JavaScript; choose one of the two! -->
 
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
 
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
     -->
 </body>
 
