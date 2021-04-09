@@ -6,8 +6,9 @@
     background-color: #70c2d0;
     height: 100px;
     width: 100%;
-    position: relative;
+    position: fixed;
     display: flex;
+    z-index: 100;
 }
 .logo{
     position: absolute;
@@ -46,121 +47,97 @@ ul li a{
     color: gold;
     font-weight: bolder;
 }
-.carousel-item img{
-     height: 550px;
-}
-.popular-action .head-1{
+.checkbtn{
+    font-size: 40px;
     color: white;
-    background-color: black;
+    margin-right: 25px;
+    float: right;
+    display: none;
+  }
+#check{
+      display: none;
+}
+.carousel{
+    padding-top: 50px;
+}
+.card-property{
     height: 1900px;
+    background-color: black;
+    width: 100%;
+}
+.card-section{
+ margin-left: 50px;
+}
+.head-1{
     padding-top: 35px;
-    padding-left: 90px;
+    padding-left: 40px;
     font-size: 28px;
-}
-.line-1{
-    border: 1px solid #ffffff;
-    margin-top: -1825px;
-    margin-left: 74px;
-    margin-right: 85px;   
-}
-.Small-Poster{
-    display: flex;
-    margin-left: 50px;
-}
-.Small-Poster img{
-    width: 220px;
-    height: 220px;
-    padding-left: 25px
-}
-.Main-2{
-    position: relative;
-}
-.Para{
-    position: absolute;
-    margin-top: -70px;
-    margin-left: 25px;
-    background-color: rgb(0, 0, 0, 0.6);
-    height: 70px;
-    width: 195px;
-    color: white;
-    padding-left: 10px;
-    text-align: center;
-    justify-content: center;
-}
-.poster-Line-2{
-    position: absolute;
-    margin-top: 250px;
-}
-.Popular-Drama{
-    position: absolute;
-    padding-left: 90px;
-    padding-top: 25px;
-}
-.head-2{
-    margin-top: 250px;
     color: white;
 }
-.line-2{
-    border: 1px solid #ffffff;
-    width: 1170px;
-}
-.Small-Poster-2{
+.card-set-1{
     display: flex;
-    margin-left: 50px
 }
-.Small-Poster-2 img{
+.small-poster-1 img{
     width: 220px;
     height: 220px;
     padding-left: 25px;
-    margin-top: 350px;
+    margin-top: 30px;
 }
-.Popular-Sci-Fi{
-    position: absolute;
-    padding-left: 50px;
-    padding-top: 850px;
-}
-.head-3{
-  color: white;  
-}
-.line-3{
-    border: 1px solid #ffffff;
-    width: 1170px;
-    
-}
-.Small-Poster-3{
+
+.card-set-2{
     display: flex;
-    margin-left: 10px;
-    position: absolute;
 }
-.Small-Poster-3 img{
+.small-poster-2 img{
     width: 220px;
     height: 220px;
-    padding-left: -10px;
-    margin-top: 950px;
+    padding-left: 25px;
+    margin-top: 30px;
 }
-.copyright{
+.card-main-set-1{
+    display: flex;
+}
+.card-set-3{
+    display: flex;
+}
+.small-poster-3 img{
+    width: 220px;
+    height: 220px;
+    padding-left: 25px;
+    margin-top: 30px;
+}
+.card-main-set-2{
+    display: flex;
+}
+.card-main-set-3{
+    display: flex;
+}
+.line{
+    border: 1px solid #ffffff;
+    margin-right: 85px; 
+    margin-left: 35px;
+}
+/* .copyright{
     position: relative;
     margin-top: 890px;
     margin-left: 35px;
-}
+} */
 .Copy{
     color: white;
     font-size: 25px;
+    margin-left: 50px;
 }
-.line-4{
-    border: 1px solid white;
-    margin-right: 35px;
-}
+
 .Search-bar{
     background-color: yellow;
     outline: none;
     width: 98%;
-    margin-left: 25px;
+    margin-left: 14px;
     position: absolute;
-    margin-right: 35px;
+    margin-right: 45px;
     margin-top: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 28px;
     text-align: center;
     justify-content: center;
     border: 1px solid black;
+    padding-bottom: 5px;
 }
